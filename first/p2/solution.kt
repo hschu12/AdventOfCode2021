@@ -7,8 +7,7 @@ fun main() {
     val sumDepth = input.mapIndexedNotNull { index, s ->
         if (index > input.size-3) null
         else {
-            val sum = input[index] + input[index + 1] + input[index + 2]
-            sum
+            input[index] + input[index + 1] + input[index + 2]
         }
     }
     var numberOfIncrease = 0
